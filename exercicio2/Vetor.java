@@ -1,6 +1,15 @@
 package exercicio2;
 
 public class Vetor {
+    /**
+     * Esta classe recebe um vetor de inteiros e um número inteiro. O algoritmo então
+     * determina os pares de inteiros no vetor que possuem uma diferença igual ao
+     * número passado. Para utilizar esta classe, é necessário criar uma instância desta 
+     * classe passando como parâmetros o array do vetor de inteiros e o número inteiro e 
+     * então utilizar o método numeroParesInteiros. Este método, retorna o número de pares 
+     * de inteiros com a diferença informada.
+     */
+
     private int diferenca;
     private int[] vetor;
     private int tamanhoVetor;

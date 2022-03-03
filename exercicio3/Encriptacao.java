@@ -1,6 +1,16 @@
 package exercicio3;
 
 public class Encriptacao {
+    /** 
+     * O código faz encriptação de uma string fornecida, considerando a raiz quadrada do 
+     * total de caracteres da frase desconsiderando os espaços em branco como uma das regras. 
+     * O número de palavras retorna igual a esse número da regra e os caracteres de cada 
+     * palavra não são maiores do que esse número. As letras retornam alternadas conforme 
+     * regra específica baseada em grid. Para utilizar esta classe, é necessário criar uma
+     * instância desta classe passando como parâmetro a string desejada e então utilizar
+     * o método encriptar, o qual retorna a string já encriptada.
+    */
+
     private String fraseOriginal;
     private String fraseEncriptada;
     private int tamanhoTexto;

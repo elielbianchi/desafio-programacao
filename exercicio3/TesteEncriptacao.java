@@ -2,6 +2,12 @@ package exercicio3;
 
 public class TesteEncriptacao {
     public static void main(String[] args) {
+
+        /**
+         * Classe de teste da classe Encriptacao. Pode-se rodar este teste toda vez que a
+         * classe citada for alterada, para confirmar que continua funcionando. Os parâmetros
+         * do bloco abaixo podem ser alterados para modificar os testes.
+         */
         
         // Bloco de entrada para testes, alterar aqui para testar novas combinações
         String frase1 = "tenha um bom dia";

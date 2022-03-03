@@ -2,6 +2,12 @@ package exercicio2;
 
 public class TesteVetor {
     public static void main(String[] args) {
+
+        /**
+         * Classe de teste da classe Vetor. Pode-se rodar este teste toda vez que a classe 
+         * citada for alterada, para confirmar que continua funcionando. Os parâmetros
+         * do bloco abaixo podem ser alterados para modificar os testes. 
+         */
         
         // Bloco de entrada para testes, alterar aqui para testar novas combinações
         int[] vetor1 = {1,5,2,8,11,7,3};

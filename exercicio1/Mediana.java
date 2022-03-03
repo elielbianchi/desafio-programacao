@@ -1,6 +1,15 @@
 package exercicio1;
 
 public class Mediana {
+
+	/**
+	 * Esta classe recebe uma lista de números inteiros desordenada para encontrar a mediana. 
+	 * Apenas funciona na operação de arrays com número de elementos ímpares. Para utilizar 
+	 * esta classe, é necessário criar uma instância desta classe passando o array da lista de 
+	 * números e então utilizar o método calcularMediana. A classe retorna o número inteiro
+	 * que é a mediana da lista.
+	 */
+
 	private boolean repetir;
 	private int[] lista;
 	private int tamanhoLista;
@@ -12,7 +21,7 @@ public class Mediana {
 		posicaoMediana = (tamanhoLista / 2);
 	}
 	
-	public int calculaMediana() {
+	public int calcularMediana() {
 		ordenar();
 		return lista[posicaoMediana];
 	}

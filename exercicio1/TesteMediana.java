@@ -3,6 +3,12 @@ package exercicio1;
 public class TesteMediana {
     public static void main(String[] args) {
 
+        /**
+         * Classe de teste da classe Mediana. Pode-se rodar este teste toda vez que a classe 
+         * citada for alterada, para confirmar que continua funcionando. Os parâmetros
+         * do bloco abaixo podem ser alterados para modificar os testes. 
+         */
+
         // Bloco de entrada para testes, alterar aqui para testar novas combinações
         int[] lista1 = {9,1,3,18,11,22,7};
         int esperado1 = 9;
@@ -17,11 +23,11 @@ public class TesteMediana {
         Mediana mediana3 = new Mediana(lista3);
         System.out.println("Teste do exercício 1: Mediana");
         System.out.println("Teste 1 - Primeira lista:");
-        System.out.println(testarNumero(mediana1.calculaMediana(), esperado1));
+        System.out.println(testarNumero(mediana1.calcularMediana(), esperado1));
         System.out.println("Teste 2 - Segunda lista:");
-        System.out.println(testarNumero(mediana2.calculaMediana(), esperado2));
+        System.out.println(testarNumero(mediana2.calcularMediana(), esperado2));
         System.out.println("Teste 3: Terceira lista:");
-        System.out.println(testarNumero(mediana3.calculaMediana(), esperado3));
+        System.out.println(testarNumero(mediana3.calcularMediana(), esperado3));
     }
 
     public static String testarNumero(int resultado, int esperado) {
