@@ -15,7 +15,7 @@ public class Mediana {
 		return lista[posicaoMediana];
 	}
 	
-	public void ordenar () {
+	private void ordenar () {
 		repetir = false;
 		bubbleSort();
 		
@@ -24,7 +24,7 @@ public class Mediana {
 		}
 	}
 	
-	public void bubbleSort() {
+	private void bubbleSort() {
 		int aux;
 		
 		for(int i = 0; i < tamanhoLista-1; i++) {
