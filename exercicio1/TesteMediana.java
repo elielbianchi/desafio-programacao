@@ -1,3 +1,5 @@
+package exercicio1;
+
 public class TesteMediana {
     public static void main(String[] args) {
         int[] lista1 = {9,1,3,18,11,22,7};

@@ -1,3 +1,5 @@
+package exercicio1;
+
 public class Mediana {
 	private boolean repetir;
 	private int[] lista;

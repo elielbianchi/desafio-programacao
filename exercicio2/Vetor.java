@@ -1,3 +1,5 @@
+package exercicio2;
+
 public class Vetor {
     private int diferenca;
     private int[] vetor;
