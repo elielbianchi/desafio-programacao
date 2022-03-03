@@ -10,7 +10,7 @@ public class Encriptacao {
 
     public Encriptacao(String frase) {
         fraseOriginal = frase.replace(" ","");
-        tamanhoTexto = frase.length();
+        tamanhoTexto = fraseOriginal.length();
         limiteInferior = (int)Math.pow(tamanhoTexto,0.5);
         limiteSuperior = limiteInferior + 1;
     }
