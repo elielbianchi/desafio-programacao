@@ -27,11 +27,11 @@ Com o pacote Java SE/JDK instalado propriamente na máquina, deve-se então nova
 
 #### Testes unitários
 
-Para rodar os arquivos de testes unitários, deve-se primeiro realizar a compilação dos arquivos. Para isso, deve-se digitar no terminal o comando javac mais o caminho relativo do arquivo. Por exemplo, para compilar o teste do exercício 1 e estando no diretório desafio-programacao, deve-se escrever e executar:  "javac exercicio1\TesteMediana.java" sem as aspas. Após, utiliza-se o comando java com o mesmo caminho relativo: "java exercicio1\TesteMediana.java". Repete-se o mesmo para os outros exercicíos e aparecerá no terminal o resultado em caso de sucesso ou falha de cada teste.
+Para rodar os arquivos de testes unitários, deve-se primeiro realizar a compilação dos arquivos. Para isso, deve-se digitar no terminal o comando javac mais o caminho relativo do arquivo. Por exemplo, para compilar o teste do exercício 1 e estando no diretório desafio-programacao, deve-se escrever e executar:  "javac exercicio1\TesteMediana.java" sem as aspas. Após, para executar utiliza-se o comando java com o mesmo caminho relativo: "java exercicio1\TesteMediana.java". Repete-se o mesmo cada exercicío. Foram escritos três testes para o método principal de cada classe e aparecerá no terminal o resultado em caso de sucesso ou falha.
 
 #### Reutilizar métodos
 
-Caso queira reutilizar os métodos escritos em outros projetos, deve-se colocar no mesmo pacote os arquivos das classes contendo os algoritmos de solução. São eles: "exercicio1\Mediana.java", "exercicio2\Vetor.java" e "exercicio3\Encriptacao.java". Então, deve-se criar uma instância para cada classe antes de usá-la passando os parâmetros necessários conforme a documentação de cada classe. Dentro de cada classe, também estão indicados os métodos que realizam o proposto e retornam o resultado esperado.
+Caso queira reutilizar os métodos escritos em outros projetos, deve-se colocar no mesmo pacote os arquivos das classes contendo os algoritmos de solução. São eles: "exercicio1\Mediana.java", "exercicio2\Vetor.java" e "exercicio3\Encriptacao.java". Então, deve-se criar uma instância para cada classe antes de usá-la passando os parâmetros necessários conforme a documentação de cada classe. Dentro de cada classe, também estão indicados os métodos que realizam o proposto e retornam o resultado desejado.
 
 ### Tecnologias
 
